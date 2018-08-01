@@ -1,0 +1,154 @@
+<style>
+
+/* Style for our header texts
+* --------------------------------------- */
+h1{
+  font-size: 15em;
+  font-family: arial,helvetica;
+  color: #fff;
+  margin:0;
+}
+.intro p{
+  color: #fff;
+}
+
+ul{
+list-style-type: none;
+}
+
+#fp-nav ul li .fp-tooltip {
+  position: absolute;
+  right: 20px;
+  max-width: 220px;
+  top: -2px;
+  color: #fff;
+  font-family: arial, helvetica, sans-serif;
+  display: block;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+  text-align:center;
+}
+
+#fp-nav {
+  top: 25%;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+#section0 {
+  background-image: url(../images/mountains.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 10px 10px 20px black;
+}
+
+#section1 {
+  background-image: url(../images/sea.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 10px 10px 20px black;
+}
+#section2 {
+  background-image: url(../images/stars.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 10px 10px 20px black;
+}
+#section3 {
+  background-image: url(../images/aboutme.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 10px 10px 20px black;
+}
+
+#section4 {
+  background-image: url(../images/stairs.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 10px 10px 20px black;
+}
+
+/*
+* {
+    box-sizing: border-box;
+    float: center;
+}*/
+
+#section2 {
+  font-size: 0.7em;
+}
+
+ul, p {
+  font-size: 1.5em;
+}
+
+#reference {
+  font-size: 1em;
+}
+
+.LinkedIn {
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 2em;
+  color:
+}
+/*.container {
+    border-radius: 5px;
+}*/
+
+/*#slides {
+  display: grid;
+}*/
+
+
+/*.fa {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+Overwriting styles for control arrows for slides
+* ---------------------------------------
+.controlArrow.prev {
+  left: 50px;
+}
+.controlArrow.next{
+  right: 50px;
+}
+
+
+Bottom menu
+* ---------------------------------------
+#infoMenu li a {
+  color: #fff;
+}
+</style>
